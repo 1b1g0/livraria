@@ -18,15 +18,15 @@ npm install -D nodemon
 ### Rotas:
 - GET:
   -  /livros - listar todos os livros.
-    ![Listar livros](getAll.png)
+    ![Listar livros](./imgs/getAll.png)
   - /:id - buscar livro por id.
 - DELETE:
   - /livros/:id
 
-    ![Deletar Erro](deletarErro.png)
+    ![Deletar Erro](./imgs/deletarErro.png)
 - POST:
   - /livros *- adicionar livro, corpo em JSON*
-  ![Adicionando livro](postLivro.png)
+  ![Adicionando livro](./imgs/postLivro.png)
 - PATCH:
   - /livros/:id *- substituir campos, corpo em JSON*
 - PUT:
@@ -40,5 +40,5 @@ npm install -D nodemon
 "numPaginas": 184
 }
 ```
-![Rotas do app](rotasImg.png)
+![Rotas do app](./imgs/rotasImg.png)
 
