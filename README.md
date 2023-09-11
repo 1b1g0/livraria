@@ -18,6 +18,7 @@ npm install -D nodemon
 ### Rotas:
 - GET:
   -  /livros - listar todos os livros.
+  
     ![Listar livros](./imgs/getAll.png)
   - /:id - buscar livro por id.
 - DELETE:
@@ -26,6 +27,7 @@ npm install -D nodemon
     ![Deletar Erro](./imgs/deletarErro.png)
 - POST:
   - /livros *- adicionar livro, corpo em JSON*
+
   ![Adicionando livro](./imgs/postLivro.png)
 - PATCH:
   - /livros/:id *- substituir campos, corpo em JSON*
